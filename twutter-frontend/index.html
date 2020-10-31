@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Twutter</title>
-  <!-- <link rel="stylesheet" href="styles.css"> -->
-</head>
-<body>
-  <header>
-    <h2>Twutter</h2>
-  </header>
-  <script src="./src/index.js"></script>
-</body>
+    <title>Twutter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Twutter</h2>
+    </header>
+    <main>
+      <div class="twit-form">
+        <form action="http://localhost:3000/posts" class="post" method="POST">
+          <input type="text-area" class="twit" />
+          <input type="submit" class="form-submit" value="Twit" />
+        </form>
+      </div>
+
+      <div class="post-container"></div>
+    </main>
+    <script src="./src/index.js"></script>
+  </body>
 </html>

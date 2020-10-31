@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+}
+h3, p{
+  background-color: grey;
+}
+p{
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.twit-form, .post-container{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.post{
+  padding: 10px;
+  margin: 10px;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+button, .form-submit{
+  border-radius: 15px;
+  padding: 4px 12px 4px 12px;
+  border-width: 0px;
+}
+.twit{
+  border-radius: 15px;
+  border-width: 0px;
+  padding: 4px 12px 4px 12px;
+  width: 85%;
+}
+header{
+  padding-left: 20px;
+  padding-top: 10px;
+}
