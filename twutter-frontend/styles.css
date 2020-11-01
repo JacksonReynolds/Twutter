@@ -41,6 +41,7 @@ button, .form-submit{
   border-width: 0px;
   padding: 4px 12px 4px 12px;
   width: 85%;
+  max-width: 280px;
 }
 header{
   padding-left: 20px;
