@@ -34,7 +34,7 @@ class Post {
     deleteButton.addEventListener("click", () => this.deletePost());
 
     postContainer.append(userName, content, deleteButton);
-    posts.appendChild(postContainer);
+    document.querySelector(".post-container").appendChild(postContainer);
   }
 
   static renderPosts() {
