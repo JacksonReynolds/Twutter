@@ -1,24 +1,37 @@
-# README
+# Movie App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app will allow users to add and delete posts using javascript fetch requests through a rails api.
 
-Things you may want to cover:
+## Summary
 
-* Ruby version
+- [Getting Started](#getting-started)
+- [Authors](#authors)
+- [License](#license)
 
-* System dependencies
+## Getting Started
 
-* Configuration
+These instructions will get you a copy of the project up and running on
+your local machine for development and testing purposes.
 
-* Database creation
+### Installing
 
-* Database initialization
+1. Fork and clone this repository
 
-* How to run the test suite
+2. Change directories to where you installed the repo
 
-* Services (job queues, cache servers, search engines, etc.)
+   `cd your_install_path/movie-app`
 
-* Deployment instructions
+3. Run migrations
 
-* ...
+   `rails db:migrate`
+
+4. Start up the rails server
+
+   `rails s`
+
+5. Navigate to your local url in your browser: localhost:3000
+
+## Authors
+
+- **Jake Driscoll** -
+  [jrdriscoll17](https://github.com/jrdriscoll17)
