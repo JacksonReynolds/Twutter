@@ -55,8 +55,13 @@ class Post {
       },
       body: JSON.stringify({ content: content }),
     })
-      .then((res) => res.json())
+      .then((res) => {
+        // debugger;
+        res.json();
+      })
       .then((post) => {
+        // console.log(post);
+        // debugger;
         const newPost = new Post(post);
         newPost.renderPost();
       });

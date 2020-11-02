@@ -13,8 +13,12 @@ class PostsController < ApplicationController
     post = Post.new(post_params)
     post.user_id = 1
     post.save
-    # byebug
     render json: post
+    # if post.save
+    #   render json: post
+    # else
+    #   render json: post.errors
+    # end
   end
 
   def destroy
